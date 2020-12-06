@@ -1,12 +1,26 @@
+header nav{
+    height: 10rem;
+}
+
+header nav .navbar-title{
+    padding-top: 3rem;
+}
 header nav .navbar-title h1{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 header nav .navbar-title h2{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 header nav .navbar-buttons a{
     padding: 0 1rem;
 }    
+
+main{
+    padding-top: 10rem;
+}
+main .main-landing{
+    height: calc(100vh - 10rem);
+}
 main .main-landing .landing-txt-container .title{
     font-size: 10rem;
 }

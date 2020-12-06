@@ -46,7 +46,7 @@ html{
 /* ---------- HEADER ---------- */
 
 header nav{
-    height: 10rem;
+    height: 5rem;
     width: 100%;
     background-color: var(--maximum-blue-green);
     display: flex;
@@ -102,13 +102,13 @@ header nav .navbar-buttons a:hover{
 main{
     display: flex;
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: 5rem;
     width: 100%;
 }
 
 main .main-landing{
     width: 100%;
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 5rem);
     background-image: url(../img/backgrounds/landingbg-large.jpg), linear-gradient(180deg, rgba(2,189,201,1) 0%, rgba(141,201,12,1) 100%);
     background-size: cover;
     background-position: center;

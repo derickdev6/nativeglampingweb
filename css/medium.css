@@ -2,6 +2,16 @@ header nav .navbar-buttons a{
     padding: 0 2rem;
     font-size: 2rem;
 }    
+header nav .navbar-title{
+    padding-top: 2rem;
+}
+header nav .navbar-title h1{
+    font-size: 5rem;
+}
+header nav .navbar-title h2{
+    font-size: 1.6rem;
+}
+
 main .main-landing .landing-txt-container .title{
     font-size: 12rem;
 }
