@@ -41,3 +41,10 @@ main .main-gallery .gallery-container .gallery-item p{
 main .main-gallery .gallery-container .gallery-item p{
     width: 60%;
 }
+/* GLAMPINGS */
+
+main .main-landing .card{
+    width: 30%;
+    height: 80%;
+    max-width: none;
+}
