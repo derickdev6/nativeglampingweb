@@ -23,6 +23,10 @@ html{
     font-family: 'Julietta Messie';
     src: url(../fonts/Julietta-Messie-Demo.ttf);
 }
+@font-face{
+    font-family: 'Weezer';
+    src: url(../fonts/weezerfont.ttf);
+}
 
 :root{
 /* COLORS */
@@ -37,7 +41,7 @@ html{
     --silver-chalice: #b4b4b4;
     --dark-white: #e6e6e6;
 /* FONTS */
-    --main-font: 'Nanum Gothic';
+    --main-font: 'Weezer';
     --main-font-bold: 'Nanum Gothic Bold';
     --main-font-extrabold: 'Nanum Gothic Extra Bold';
     --script-font: 'Julietta Messie';
@@ -68,13 +72,15 @@ header nav .navbar-title{
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
-    font-family: var(--script-font);
     color: var(--dark-white);
 }
 header nav .navbar-title h1{
+    font-family: var(--script-font);
     font-size: 0rem;
 }
 header nav .navbar-title h2{
+    margin: -1rem 0 0 -8rem;
+    font-family: var(--main-font);
     font-size: 0rem;
 }
 
@@ -87,7 +93,7 @@ header nav .navbar-buttons a{
     align-items: center;
     height: 100%;
     padding: 0 .5rem;
-    font-family: var(--main-font-bold);
+    font-family: var(--main-font);
     color: var(--dark-white);
     text-decoration: none;
     font-size: 1.6rem;
