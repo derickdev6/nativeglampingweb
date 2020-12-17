@@ -46,5 +46,24 @@ main .main-gallery .gallery-container .gallery-item p{
 main .main-landing .card{
     width: 30%;
     height: 80%;
-    max-width: none;
+    max-height: 55rem;
+    max-width: 50rem;
+}
+main .main-landing .card figure {
+    height: 50%;
+}
+main .main-landing .card figure img{
+    height: 100%;
+    width: auto;
+}
+main .main-landing .card .card-textbox{
+    width: 90%;
+}
+main .main-landing .card .card-textbox h3{
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+main .main-landing .card .card-textbox p{
+    font-size: 1.5rem;
 }

@@ -17,3 +17,11 @@ main .main-gallery .gallery-container .gallery-item p{
 main .main-gallery .gallery-container .gallery-item p{
     width: 50%;
 }
+main .main-landing .card .card-textbox h3{
+    font-size: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+main .main-landing .card .card-textbox p{
+    font-size: 1.6rem;
+}

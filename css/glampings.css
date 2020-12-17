@@ -115,7 +115,6 @@ main{
     flex-direction: column;
     padding-top: 5rem;
     width: 100%;
-    background-color: #ff000066;
 }
 main .main-landing{
     height: calc(100vh - 5rem);
@@ -128,9 +127,32 @@ main .main-landing{
 main .main-landing .card{
     width: 80%;
     max-width: 40rem;
-    margin: 1rem 0;
     height: 30%;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: #ffffff66;
+    background-color: var(--mountain-meadow);
+}
+main .main-landing .card figure {
+    height: 40%;
+    overflow: hidden;
+}
+main .main-landing .card figure img{
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+main .main-landing .card .card-textbox{
+    width: 95%;
+    margin: 1rem auto;
+}
+main .main-landing .card .card-textbox h3{
+    font-family: var(--script-font);
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+main .main-landing .card .card-textbox p{
+    font-family: var(--main-font);
+    text-align: justify;
 }
