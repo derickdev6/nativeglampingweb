@@ -1,0 +1,51 @@
+header nav {
+  height: 6rem;
+}
+header nav .navbar-title {
+  padding-top: 2rem;
+}
+header nav .navbar-title h1 {
+  font-size: 3rem;
+}
+header nav .navbar-title h2 {
+  font-size: 0rem;
+}
+header nav .navbar-buttons a {
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+
+main {
+  padding-top: 6rem;
+}
+main h1 {
+  padding: 5rem 0;
+  font-size: 6rem;
+}
+main .cardcont {
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .cardcont .card {
+  height: 25rem;
+  width: 40%;
+}
+main .cardcont .card a {
+  padding: 1.5rem 4rem;
+  font-size: 3rem;
+}
+main .cardcont .card figure {
+  height: 75%;
+}
+main .cardcont .card .card-textbox {
+  width: 90%;
+  margin: 1rem auto;
+}
+main .cardcont .card .card-textbox h3 {
+  font-size: 4rem;
+}
+main .cardcont .card .card-textbox p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}

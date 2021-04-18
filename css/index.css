@@ -10,6 +10,29 @@ body {
   background-color: var(--eerie-black);
 }
 
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f111;
+  border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--emerald);
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @font-face {
   font-family: "Nanum Gothic";
   src: url(../fonts/NanumGothic-Regular.ttf);
@@ -122,10 +145,9 @@ main .main-landing {
   align-items: center;
   width: 100%;
   height: calc(100vh - 5rem);
-  background-image: url(../img/backgrounds/landingbg-large.jpg),
-    linear-gradient(180deg, rgba(2, 189, 201, 1) 0%, rgba(141, 201, 12, 1) 100%);
+  background-image: url(../img/landing.jpg), linear-gradient(180deg, rgba(2, 189, 201, 1) 0%, rgba(141, 201, 12, 1) 100%);
   background-size: cover;
-  background-position: center;
+  background-position: left bottom;
 }
 main .main-landing .landing-txt-container {
   /* height: 40%; */
@@ -137,8 +159,10 @@ main .main-landing .landing-txt-container {
 }
 main .main-landing .landing-txt-container .title {
   font-size: 6rem;
+  text-shadow: -0.3rem 0.3rem 0rem var(--eerie-black);
 }
 main .main-landing .landing-txt-container .subtitle {
+  text-shadow: -0.3rem 0.3rem 0rem var(--eerie-black);
   font-size: 4rem;
 }
 
@@ -200,7 +224,7 @@ main .main-gallery .gallery-container .item3 {
   background-image: url(../img/gallery/beachsunset.jpg);
 }
 main .main-gallery .gallery-container .item4 {
-  background-image: url(../img/gallery/dronesea.JPG);
+  background-image: url(../img/gallery/sea.jpg);
 }
 main .main-gallery .gallery-container .item5 {
   background-image: url(../img/gallery/turtle.JPG);

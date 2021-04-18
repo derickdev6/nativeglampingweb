@@ -1,158 +1,200 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    background-color: var(--eerie-black);
-}
-
-@font-face{
-    font-family: 'Nanum Gothic';
-    src: url(../fonts/NanumGothic-Regular.ttf);
-}
-@font-face{
-    font-family: 'Nanum Gothic Bold';
-    src: url(../fonts/NanumGothic-Bold.ttf);
-}
-@font-face{
-    font-family: 'Nanum Gothic Extra Bold';
-    src: url(../fonts/NanumGothic-ExtraBold.ttf);
-}
-@font-face{
-    font-family: 'Julietta Messie';
-    src: url(../fonts/Julietta-Messie-Demo.ttf);
-}
-@font-face{
-    font-family: 'Weezer';
-    src: url(../fonts/weezerfont.ttf);
+body {
+  background-color: var(--eerie-black);
 }
 
-:root{
-/* COLORS */
-    --maximum-blue-green: #02BDC9;
-    --mountain-meadow: #25C09A;
-    --emerald: #48C36B;
-    --kelly-green: #6BC63C;
-    --yellow-green: #8DC90C;
-    --light-yellow-green: #97CE22;
-    --eerie-black: #282828;
-    --dim-gray: #6e6e6e;
-    --silver-chalice: #b4b4b4;
-    --dark-white: #e6e6e6;
-/* FONTS */
-    --main-font: 'Weezer';
-    --main-font-bold: 'Nanum Gothic Bold';
-    --main-font-extrabold: 'Nanum Gothic Extra Bold';
-    --script-font: 'Julietta Messie';
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f111;
+  border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--emerald);
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(../fonts/NanumGothic-Regular.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic Bold";
+  src: url(../fonts/NanumGothic-Bold.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic Extra Bold";
+  src: url(../fonts/NanumGothic-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Julietta Messie";
+  src: url(../fonts/Julietta-Messie-Demo.ttf);
+}
+@font-face {
+  font-family: "Weezer";
+  src: url(../fonts/weezerfont.ttf);
+}
+
+:root {
+  /* COLORS */
+  --maximum-blue-green: #02bdc9;
+  --mountain-meadow: #25c09a;
+  --emerald: #48c36b;
+  --kelly-green: #6bc63c;
+  --yellow-green: #8dc90c;
+  --light-yellow-green: #97ce22;
+  --eerie-black: #282828;
+  --dim-gray: #6e6e6e;
+  --silver-chalice: #b4b4b4;
+  --dark-white: #e6e6e6;
+  /* FONTS */
+  --main-font: "Weezer";
+  --main-font-bold: "Nanum Gothic Bold";
+  --main-font-extrabold: "Nanum Gothic Extra Bold";
+  --script-font: "Julietta Messie";
 }
 
 /* ---------- HEADER ---------- */
 
-header nav{
-    height: 5rem;
-    width: 100%;
-    background-color: var(--maximum-blue-green);
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
+header nav {
+  height: 5rem;
+  width: 100%;
+  background-color: var(--maximum-blue-green);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
 }
 
-header nav .navbar-logo-container{
-    height: 100%;
-    width: auto;
+header nav .navbar-logo-container {
+  height: 100%;
+  width: auto;
 }
-header nav .navbar-logo-container img{
-    height: 80%;
-    margin: 10%;
-}
-
-header nav .navbar-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-    color: var(--dark-white);
-}
-header nav .navbar-title h1{
-    font-family: var(--script-font);
-    font-size: 0rem;
-}
-header nav .navbar-title h2{
-    position: relative;
-    top: -1rem;
-    left: -4rem;
-    font-family: var(--main-font);
-    font-size: 0rem;
+header nav .navbar-logo-container img {
+  height: 80%;
+  margin: 10%;
 }
 
-header nav .navbar-buttons{
-    list-style: none;
-    display: flex;
+header nav .navbar-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  color: var(--dark-white);
 }
-header nav .navbar-buttons a{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 0 .5rem;
-    font-family: var(--main-font);
-    color: var(--dark-white);
-    text-decoration: none;
-    font-size: 1.6rem;
-    transition: .1s;
+header nav .navbar-title h1 {
+  font-family: var(--script-font);
+  font-size: 0rem;
 }
-header nav .navbar-buttons a:hover{
-    background-color: var(--emerald);
+header nav .navbar-title h2 {
+  position: relative;
+  top: -1rem;
+  left: -4rem;
+  font-family: var(--main-font);
+  font-size: 0rem;
+}
+
+header nav .navbar-buttons {
+  list-style: none;
+  display: flex;
+}
+header nav .navbar-buttons a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 0.5rem;
+  font-family: var(--main-font);
+  color: var(--dark-white);
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: 0.1s;
+}
+header nav .navbar-buttons a:hover {
+  background-color: var(--emerald);
 }
 
 /* ---------- MAIN ---------- */
 
-main{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5rem;
-    width: 100%;
+main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  width: 100%;
+  text-align: center;
 }
-main .main-landing{
-    height: calc(100vh - 5rem);
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+main h1 {
+  padding: 4rem 0;
+  font-family: var(--script-font);
+  font-size: 4rem;
+  color: var(--dark-white);
 }
-main .main-landing .card{
-    width: 80%;
-    max-width: 40rem;
-    height: 30%;
-    border-radius: 1rem;
-    overflow: hidden;
-    background-color: var(--mountain-meadow);
+main .cardcont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-main .main-landing .card figure {
-    height: 40%;
-    overflow: hidden;
+main .cardcont .card {
+  width: 80%;
+  max-width: 40rem;
+  height: 20rem;
+  margin-bottom: 5rem;
+  border-radius: 1rem;
+  text-align: center;
+  overflow-y: scroll;
+  background-color: var(--mountain-meadow);
 }
-main .main-landing .card figure img{
-    min-width: 100%;
-    min-height: 100%;
-    width: 100%;
+main .cardcont .card a {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  border-radius: 1rem 1rem 0 0;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--script-font);
+  color: var(--eerie-black);
+  background: var(--light-yellow-green);
 }
-main .main-landing .card .card-textbox{
-    width: 95%;
-    margin: 1rem auto;
+main .cardcont .card figure {
+  height: 75%;
+  overflow: hidden;
 }
-main .main-landing .card .card-textbox h3{
-    font-family: var(--script-font);
-    font-weight: lighter;
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: .5rem;
+main .cardcont .card figure img {
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
 }
-main .main-landing .card .card-textbox p{
-    font-family: var(--main-font);
-    text-align: justify;
+main .cardcont .card .card-textbox {
+  width: 95%;
+  margin: 1rem auto;
+}
+main .cardcont .card .card-textbox h3 {
+  font-family: var(--script-font);
+  font-weight: lighter;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+main .cardcont .card .card-textbox p {
+  font-family: var(--main-font);
+  text-align: left;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
 }

@@ -1,0 +1,76 @@
+header nav {
+  height: 10rem;
+}
+header nav .navbar-buttons a {
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+header nav .navbar-title {
+  padding-top: 2rem;
+}
+header nav .navbar-title h1 {
+  font-size: 5rem;
+}
+header nav .navbar-title h2 {
+  font-size: 1rem;
+}
+
+main {
+  padding-top: 10rem;
+}
+main .cardcont {
+  flex-direction: column;
+}
+main .cardcont .card {
+  display: flex;
+  max-width: none;
+  width: 80%;
+  height: 28rem;
+  align-items: center;
+  overflow: hidden;
+}
+main .cardcont .card a {
+  border-radius: 2rem;
+  width: 20rem;
+  margin: 0 2rem 0 2rem;
+}
+main .cardcont .card figure {
+  height: 28rem;
+  width: 70%;
+  background-size: cover;
+  background-position: center;
+}
+main .cardcont .card figure img {
+  display: none;
+}
+main .cardcont .card .card-textbox {
+  padding: 0 2rem 0 2rem;
+  height: 100%;
+  overflow-y: auto;
+}
+main .cardcont .card .card-textbox h3 {
+  padding-top: 2rem;
+  font-size: 5rem;
+}
+main .cardcont .card .card-textbox p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.cardcont .card1 figure {
+  background-image: url(../img/cards/preview1.jpg);
+}
+.cardcont .card2 figure {
+  background-image: url(../img/cards/preview2.jpg);
+}
+.cardcont .card3 figure {
+  background-image: url(../img/cards/preview3.jpg);
+}
+.cardcont .card4 figure {
+  background-image: url(../img/cards/preview1.jpg);
+}
+.cardcont .card5 figure {
+  background-image: url(../img/cards/preview2.jpg);
+}
+.cardcont .card6 figure {
+  background-image: url(../img/cards/preview3.jpg);
+}
