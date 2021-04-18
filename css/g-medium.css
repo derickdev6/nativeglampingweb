@@ -22,6 +22,7 @@ main .cardcont {
   flex-direction: column;
 }
 main .cardcont .card {
+  border-radius: 1rem;
   display: flex;
   max-width: none;
   width: 80%;

@@ -30,6 +30,7 @@ main .cardcont {
 main .cardcont .card {
   height: 25rem;
   width: 40%;
+  border-radius: 3rem;
 }
 main .cardcont .card a {
   padding: 1.5rem 4rem;
