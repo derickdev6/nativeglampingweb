@@ -76,7 +76,7 @@ body {
 /* ---------- HEADER ---------- */
 
 header nav {
-  height: 5rem;
+  height: 10vh;
   width: 100%;
   background-color: var(--maximum-blue-green);
   display: flex;
@@ -120,11 +120,11 @@ header nav .navbar-buttons a {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 0.5rem;
+  padding: 0 5vw;
   font-family: var(--main-font);
   color: var(--dark-white);
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 4vw;
   transition: 0.1s;
 }
 header nav .navbar-buttons a:hover {
@@ -136,7 +136,7 @@ header nav .navbar-buttons a:hover {
 main {
   display: flex;
   flex-direction: column;
-  padding-top: 5rem;
+  padding-top: 10vh;
   width: 100%;
 }
 
@@ -144,7 +144,7 @@ main .main-landing {
   display: flex;
   align-items: center;
   width: 100%;
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 10vh);
   background-image: url(../img/landing.jpg), linear-gradient(180deg, rgba(2, 189, 201, 1) 0%, rgba(141, 201, 12, 1) 100%);
   background-size: cover;
   background-position: left bottom;
@@ -158,12 +158,12 @@ main .main-landing .landing-txt-container {
   color: var(--dark-white);
 }
 main .main-landing .landing-txt-container .title {
-  font-size: 6rem;
+  font-size: 15vw;
   text-shadow: -0.3rem 0.3rem 0rem var(--eerie-black);
 }
 main .main-landing .landing-txt-container .subtitle {
   text-shadow: -0.3rem 0.3rem 0rem var(--eerie-black);
-  font-size: 4rem;
+  font-size: 8vw;
 }
 
 main .main-gallery {
@@ -173,10 +173,10 @@ main .main-gallery {
 
 main .main-gallery .gallery-title {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 5vh;
   font-family: var(--script-font);
   color: var(--dark-white);
-  font-size: 4rem;
+  font-size: 12vw;
 }
 
 main .main-gallery .gallery-container {
@@ -188,9 +188,9 @@ main .main-gallery .gallery-container {
 }
 main .main-gallery .gallery-container .gallery-item {
   width: 80%;
-  height: 18rem;
+  height: 20vh;
   margin: 2rem 0;
-  border-radius: 1rem;
+  border-radius: 5%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -202,9 +202,9 @@ main .main-gallery .gallery-container .gallery-item p {
   margin: 0 auto;
   border-radius: 0rem;
   font-family: var(--script-font);
-  font-size: 3rem;
+  font-size: 7vw;
   color: var(--eerie-black);
-  padding: 1rem;
+  padding: 2vw;
   background-color: #ffffff66;
   transition: 0.1s;
 }
@@ -236,7 +236,7 @@ main .main-gallery .gallery-container .item6 {
 /* ---------- FOOTER ---------- */
 
 footer {
-  height: 20rem;
+  height: 20vh;
   width: 100%;
   background-color: var(--eerie-black);
   border-top: var(--dim-gray) solid 0.2rem;
