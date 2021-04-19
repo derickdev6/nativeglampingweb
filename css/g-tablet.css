@@ -32,7 +32,7 @@ main .cardcont .card {
   width: 40%;
   border-radius: 3rem;
 }
-main .cardcont .card a {
+main .cardcont .card .btn-reservar {
   padding: 1.5rem 4rem;
   font-size: 3rem;
 }

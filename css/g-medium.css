@@ -1,6 +1,12 @@
 header nav {
   height: 10rem;
 }
+header nav figure {
+  margin-left: 10%;
+}
+header nav .navbar-buttons {
+  margin-right: 10%;
+}
 header nav .navbar-buttons a {
   padding: 0 2rem;
   font-size: 2rem;
@@ -24,13 +30,13 @@ main .cardcont {
 main .cardcont .card {
   border-radius: 1rem;
   display: flex;
-  max-width: none;
+  max-width: 120rem;
   width: 80%;
   height: 28rem;
   align-items: center;
   overflow: hidden;
 }
-main .cardcont .card a {
+main .cardcont .card .btn-reservar {
   border-radius: 2rem;
   width: 20rem;
   margin: 0 2rem 0 2rem;
@@ -56,6 +62,11 @@ main .cardcont .card .card-textbox h3 {
 main .cardcont .card .card-textbox p {
   font-size: 1.8rem;
   line-height: 3rem;
+}
+main .cardcont .card .card-textbox a {
+  display: block;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 .cardcont .card1 figure {
   background-image: url(../img/cards/preview1.jpg);

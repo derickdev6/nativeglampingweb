@@ -161,7 +161,7 @@ main .cardcont .card {
   overflow-y: auto;
   background-color: var(--mountain-meadow);
 }
-main .cardcont .card a {
+main .cardcont .card .btn-reservar {
   padding: 1rem 4rem;
   font-size: 6vw;
   border-radius: 1rem 1rem 0 0;
@@ -196,4 +196,10 @@ main .cardcont .card .card-textbox p {
   text-align: left;
   line-height: 2.5rem;
   font-size: 1.5rem;
+}
+main .cardcont .card .card-textbox a {
+  display: none;
+  text-decoration: none;
+  color: var(--eerie-black);
+  font-family: var(--main-font);
 }
