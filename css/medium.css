@@ -1,69 +1,75 @@
-header nav{
-    height: 10rem;
+header nav {
+  height: 10rem;
 }
-header nav .navbar-buttons a{
-    padding: 0 2rem;
-    font-size: 2rem;
-}    
-header nav .navbar-title{
-    padding-top: 2rem;
+header nav figure {
+  margin-left: 10%;
 }
-header nav .navbar-title h1{
-    font-size: 5rem;
+header nav .navbar-buttons {
+  margin-right: 10%;
 }
-header nav .navbar-title h2{
-    font-size: 1rem;
+header nav .navbar-buttons a {
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+header nav .navbar-title {
+  padding-top: 2rem;
+}
+header nav .navbar-title h1 {
+  font-size: 5rem;
+}
+header nav .navbar-title h2 {
+  font-size: 1rem;
 }
 
-main{
-    padding-top: 10rem;
+main {
+  padding-top: 10rem;
 }
-main .main-landing{
-    height: calc(100vh - 10rem);
+main .main-landing {
+  height: calc(100vh - 10rem);
 }
-main .main-landing .landing-txt-container .title{
-    font-size: 12rem;
+main .main-landing .landing-txt-container .title {
+  font-size: 12rem;
 }
-main .main-landing .landing-txt-container .subtitle{
-    font-size: 5rem;
+main .main-landing .landing-txt-container .subtitle {
+  font-size: 5rem;
 }
-main .main-gallery .gallery-title{
-    font-size: 9rem;
+main .main-gallery .gallery-title {
+  font-size: 9rem;
 }
-main .main-gallery .gallery-container .gallery-item{
-    width: 45%;
-    height: 28rem;
-    border-radius: 2rem;
-}  
-main .main-gallery .gallery-container .gallery-item p{
-    font-size: 5rem;
+main .main-gallery .gallery-container .gallery-item {
+  width: 45%;
+  height: 28rem;
+  border-radius: 2rem;
 }
-main .main-gallery .gallery-container .gallery-item p{
-    width: 60%;
+main .main-gallery .gallery-container .gallery-item p {
+  font-size: 5rem;
+}
+main .main-gallery .gallery-container .gallery-item p {
+  width: 60%;
 }
 /* GLAMPINGS */
 
-main .main-landing .card{
-    width: 30%;
-    height: 80%;
-    max-height: 55rem;
-    max-width: 50rem;
+main .main-landing .card {
+  width: 30%;
+  height: 80%;
+  max-height: 55rem;
+  max-width: 50rem;
 }
 main .main-landing .card figure {
-    height: 50%;
+  height: 50%;
 }
-main .main-landing .card figure img{
-    height: 100%;
-    width: auto;
+main .main-landing .card figure img {
+  height: 100%;
+  width: auto;
 }
-main .main-landing .card .card-textbox{
-    width: 90%;
+main .main-landing .card .card-textbox {
+  width: 90%;
 }
-main .main-landing .card .card-textbox h3{
-    font-size: 4rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+main .main-landing .card .card-textbox h3 {
+  font-size: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-main .main-landing .card .card-textbox p{
-    font-size: 1.5rem;
+main .main-landing .card .card-textbox p {
+  font-size: 1.5rem;
 }
